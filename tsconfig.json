@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "outFile": "lib/get-ui.js",
+        "module": "commonjs",
+        "target": "es5",
+        "noImplicitAny": true,
+        "sourceMap": true
+    },
+    "exclude": [
+        "./node_modules/",
+        "./lib/"
+    ]
+}
