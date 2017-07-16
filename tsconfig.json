@@ -1,8 +1,7 @@
 {
     "compilerOptions": {
-        "outFile": "lib/get-ui.js",
-        "module": "commonjs",
-        "target": "es5",
+        "module": "amd",
+        "target": "es6",
         "noImplicitAny": true,
         "sourceMap": true
     },

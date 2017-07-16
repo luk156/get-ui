@@ -1,8 +1,8 @@
-import {ListOptions} from "./ListOptions";
-import "./css/list.css";
 import * as Backbone from 'backbone';
 import * as Marionette from 'backbone.marionette';
 import * as _ from 'underscore';
+
+import ListOptions from "./ListOptions";
 
 export default class List<TModel extends Backbone.Model> extends Marionette.CollectionView<TModel, Marionette.View<TModel>> {
 
@@ -68,9 +68,7 @@ class SortableBehavior extends Marionette.Behavior {
 
     onRender() {
 
-        this.$el.sortable({
-
-        }); // options are passed to the sortable
+        //this.$el.sortable({ }); // options are passed to the sortable
     }
 
     onAddChild(view: any, childView:any) {
