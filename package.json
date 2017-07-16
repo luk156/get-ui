@@ -11,6 +11,7 @@
   },
   "devDependencies": {
     "@types/backbone.marionette": "0.0.24",
+    "ts-loader": "^2.3.0",
     "typescript": "^2.4.1",
     "webpack": "^3.3.0"
   }

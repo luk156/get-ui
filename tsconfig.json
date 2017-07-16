@@ -1,9 +1,16 @@
 {
     "compilerOptions": {
-        "module": "amd",
-        "target": "es6",
+        "module": "commonjs",
         "noImplicitAny": true,
-        "sourceMap": true
+        "preserveConstEnums": true,
+        "lib": [
+            "dom",
+            "es5",
+            "es2015.iterable"
+        ],
+        "target": "es5",
+        "sourceMap": true,
+        "declaration": true
     },
     "exclude": [
         "./node_modules/",
