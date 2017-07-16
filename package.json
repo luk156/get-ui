@@ -10,6 +10,7 @@
     "bootstrap": "^3.3.7"
   },
   "devDependencies": {
+    "@types/backbone.marionette": "0.0.24",
     "typescript": "^2.4.1"
   }
 }

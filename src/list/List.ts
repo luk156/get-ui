@@ -1,7 +1,10 @@
 import {ListOptions} from "./ListOptions";
 import "./css/list.css";
+import * as Backbone from 'backbone';
+import * as Marionette from 'backbone.marionette';
+import * as _ from 'underscore';
 
-export default class List<TModel extends Backbone.Model> extends Marionette.CollectionView<TModel> {
+export default class List<TModel extends Backbone.Model> extends Marionette.CollectionView<TModel, Marionette.View<TModel>> {
 
     options: ListOptions<TModel>;
 
